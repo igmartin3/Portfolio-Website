@@ -1,0 +1,115 @@
+.container {
+    width: 100%;
+    height: auto;
+    color: grey;
+   
+
+}
+.column {
+    width: 20%;
+    height: auto;
+    background-color: yellow;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative;
+  
+}
+
+#one {
+    background-color: yellow;
+    top: 0px;
+    left: auto;
+   
+}
+
+#two {
+    background-color: orange;
+    top: 100px;
+    left: auto;
+}
+
+#three {
+    background-color: grey;
+    top: 20px;
+    left: auto;
+}
+
+#four {
+    background-color: green;
+    top: 100px;
+    left: auto;
+}
+
+#five {
+    background-color: brown;
+}
+
+.mainText {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 10%;
+}
+
+.mainText p {
+    width: 45%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.mainText h1 {
+    width: 45%;
+    height: auto;
+    margin: auto;
+   
+}
+
+ul {
+    width: 45%;
+    height: auto;
+    margin: auto;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 75%;
+        height: auto;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #one {
+        top: 0;
+    }
+     #two {
+        top: 0;
+    }
+     #three {
+        top: 0;
+    }
+     #four {
+        top: 0;
+    }
+     #five {
+        top: 0;
+    }
+
+}
