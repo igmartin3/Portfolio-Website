@@ -24,8 +24,9 @@ body {
     display: none;
 }
 
-.reveal:hover {
-    display: block;
+img:hover + .reveal {
+    display: inline-block;
+    
 }
 
 #one {
